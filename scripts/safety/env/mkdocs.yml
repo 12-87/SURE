@@ -1,0 +1,23 @@
+docs_dir: ../docs
+site_name: MMTrustEval Docs
+nav:
+  - Home: index.md
+  - Structure: structure.md
+  - Dataclass: dataclass.md
+  - Modules: modules.md
+  - Task: task.md
+  - Tutorial: tutorial.md
+theme: readthedocs
+# theme: material
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+plugins:
+  - glightbox
+  - include-markdown
+  - search:
+      lang: ['en', 'zh']
+
+extra_css:
+  - 'extra.css'
