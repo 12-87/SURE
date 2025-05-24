@@ -19,7 +19,7 @@ class CustomizedChat(BaseChat):
 
     # TODO: update model config
     MODEL_CONFIG = {
-        "llava": '/data1/home/gouyuxin/XYZ/MMTrustEval/model/customized-model.yaml',
+        "llava": 'customized-model.yaml',
     }
     model_family = list(MODEL_CONFIG.keys())
 
